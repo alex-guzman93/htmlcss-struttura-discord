@@ -1,0 +1,13 @@
+/* Base*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* barra di navigazione*/
+.barra-di-navigazione{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #add8e6;
+}
