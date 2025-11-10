@@ -26,9 +26,31 @@
     justify-content: center;
     align-items: center;
 }
-.hero-box{
+.hero-box {
     background-color: violet;
     width: 60%;
     height: 200px;
     border: 1px dotted black;
+}
+/* 4 sezioni restanti*/
+.sezione1 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 5% 0; /* spazio verticale*/
+}
+.sezione-white {
+background-color: white;
+}
+.blocco {
+border: 1px dotted black;
+width: 45%;/*spazio che ocupano i blocchi*/
+height: 40vh;/*altezza relativa dei blocchi*/
+}
+.blue {
+    background-color: #1e90ff
+}
+.pink{
+    background-color: rosybrown;
 }
