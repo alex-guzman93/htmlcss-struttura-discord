@@ -19,3 +19,16 @@
     padding: 10px;
 
 }
+.hero {
+    background-color: #00008b; 
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-box{
+    background-color: violet;
+    width: 60%;
+    height: 200px;
+    border: 1px dotted black;
+}
