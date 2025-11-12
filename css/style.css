@@ -4,53 +4,114 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
 /* barra di navigazione*/
-.barra-di-navigazione{
+.barra-di-navigazione {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #add8e6;
-    height: 80px;
-    padding: 0 20px;
+    width: 90%;
+    height: 60px;
+    margin: 0 auto; 
 }
-.logo, .links, .login {
-    background-color: goldenrod;
-    border: 1px dotted black; 
-    padding: 10px;
 
+.logo,
+.links,
+.login {
+    background-color: goldenrod;
+    text-align: center;
+    border: 2px dotted black;
+    height: 40px;
+    line-height: 40px;
 }
+
+.logo {
+    width: 15%;
+}
+
+.links {
+    width: 65%;
+}
+
+.login {
+    width: 15%;
+}
+
 .hero {
-    background-color: #00008b; 
+    background-color: #00008b;
     min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .hero-box {
     background-color: violet;
     width: 60%;
     height: 200px;
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
-/* 4 sezioni restanti*/
-.sezione1 {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-padding: 5% 0; /* spazio verticale*/
-}
+
+/*  sezioni bianca*/
 .sezione-white {
-background-color: white;
+    background-color: white;
+     min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;   
 }
+/*blocchi generici*/
 .blocco {
-border: 1px dotted black;
-width: 45%;/*spazio che ocupano i blocchi*/
-height: 40vh;/*altezza relativa dei blocchi*/
+    border: 2px dotted black;
 }
+
+/*colori*/
 .blue {
     background-color: #1e90ff
 }
-.pink{
-    background-color: rosybrown;
+
+.pink {
+    background-color: #ffcad3;
+}
+
+.green {
+    background-color: #156915;
+}
+/*sezione griggia*/
+.sezione-grey {
+    background-color: #d3d3d3;
+     min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+
+/*blocchi sezione bianca e griggia*/
+
+.sezione-white .blocco.blue {
+    width: 43%;
+    height: 35vh;
+}
+
+.sezione-white .blocco.pink {
+    width: 43%;
+    height: 35vh;
+}
+
+.sezione-grey .blocco.pink {
+    width: 43%;
+    height: 35vh;
+}
+
+.sezione-grey .blocco.blue {
+    width: 43%;
+    height: 35vh;
 }
